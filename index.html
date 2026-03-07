@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        button {
+            height: 150px;
+            width: 150px;
+        }
+        button:hover {
+            background-color: rgb(131, 126, 126);
+        }
+   
+   </style>
+
+</head>
+<body>
+    <center><button onclick="mudarCor()">Clique para mudar a cor para azul</button>
+   <button onclick="mudarCor2()">Clique para mudar a cor para vermelho</button>
+    <button onclick="mudarCor3()">Clique para mudar a cor para branco</button>
+    <button onclick="mudarCor4()">Clique para mudar a cor para preto</button></center>
+</center>
+    
+    <script>
+        function mudarCor() {
+    document.body.style.backgroundColor = "blue"
+        }
+         function mudarCor2() {
+    document.body.style.backgroundColor = "red"
+        }
+        function mudarCor3() {
+    document.body.style.backgroundColor = "white"
+        }
+         function mudarCor4() {
+    document.body.style.backgroundColor = "black"
+        }
+    </script>
+</body>
+</html>
