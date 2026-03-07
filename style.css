@@ -1,9 +1,8 @@
+button {
+    height: 150px;
+    width: 150px;
+}
 
-        button {
-            height: 150px;
-            width: 150px;
-        }
-
-        button:hover {
-            background-color: rgb(131, 126, 126);
-        }
+button:hover {
+    background-color: rgb(131, 126, 126);
+}
