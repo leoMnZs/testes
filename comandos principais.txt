@@ -1,0 +1,15 @@
+CSS:
+linkar: <link rel="stylesheet" href="style.css">
+margin =  deixa um espaço na direçao do comando
+float = alinha  imagem
+
+COMO CRIAR UM ESPAÇO NO MEIO
+.conteudo {
+    width: 80%;
+    height: 1000px;
+    background-color: rgb(216, 185, 101);
+} (NAO ESQUECER DO CENTER)
+HTML:
+
+JS:
+linkar: <script src="script.js"></script>
