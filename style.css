@@ -1,8 +1,52 @@
-button {
-    height: 150px;
-    width: 150px;
+body {
+    background-color: rgba(34, 23, 2, 0.829);
+
 }
 
-button:hover {
-    background-color: rgb(131, 126, 126);
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
 }
+
+.conteudo {
+    width: 80%;
+    height: 1000px;
+    background-color: rgb(216, 185, 101);
+}
+.titulo {
+   
+    font-size: 25px;
+    background-color: rgb(216, 185, 121);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.primeiroSubTitulo {
+    font-size: 180%;
+    text-align: left;
+    margin-left: 50px;
+    
+}
+#imagemTexto {
+    
+    height: 400px;
+    float: right;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-left: 40px;
+   
+    
+    
+}
+.primeiroTexto {
+    margin-left: 30px;
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 58px;
+    text-align: justify;
+    padding-left: 30;
+}
+
+
+
